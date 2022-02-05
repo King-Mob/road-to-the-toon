@@ -1,0 +1,16 @@
+h1 {
+  width: 100%;
+  font-size: 6rem;
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#bridge {
+  width: 80%;
+  margin-left: 10%;
+}
