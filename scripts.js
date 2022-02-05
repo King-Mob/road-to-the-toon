@@ -28,7 +28,8 @@ function displayDistance(latitude, longitude) {
     "Blaydon Races",
   ];
 
-  const zoneIndex = ((distanceMiles / 100) * zones.length) % zones.length;
+  const zoneIndex =
+    Math.round((distanceMiles / 100) * zones.length) % zones.length;
 
   zoneDisplay.innerHTML = zones[zoneIndex];
 
